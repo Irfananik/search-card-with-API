@@ -25,9 +25,12 @@
     <main class="container">
         <div class="d-flex justify-content-center h-100">
             <div class="input-group mb-3 w-50 input-div">
-                <input type="text" class="form-control" placeholder="Search here" aria-label="Search here" aria-describedby="button-addon2">
-                <button class="btn btn-outline-secondary" type="button" id="button-addon2">Search</button>
+                <input id="search-field" type="text" class="form-control" placeholder="Search here" aria-label="Search here" aria-describedby="button-addon2">
+                <button onclick="loadCardByButton()" class="btn btn-outline-secondary" type="button" id="button-addon2">Search</button>
             </div>
+        </div>
+        <div class="error-div">
+            <p class="text-danger" id="error"></p>
         </div>
 
     </main>

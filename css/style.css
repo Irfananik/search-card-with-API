@@ -22,3 +22,9 @@
     align-items: center;
     justify-content: center;
 }
+
+.error-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
