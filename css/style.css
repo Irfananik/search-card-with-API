@@ -28,3 +28,12 @@
     align-items: center;
     justify-content: center;
 }
+
+
+/* see details card section */
+
+.see-details-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
